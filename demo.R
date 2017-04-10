@@ -9,3 +9,6 @@ head(df)
 # R code
 lm.result=lm(conspiracist_avg~age,data=df)
 summary(lm.result)
+
+# R code
+plot(df$age,df$conspiracist_avg)
